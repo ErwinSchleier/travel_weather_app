@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/travel_weather_app/static/css/main.ff01474b.chunk.css",
+    "main.js": "/travel_weather_app/static/js/main.5f12fad9.chunk.js",
+    "main.js.map": "/travel_weather_app/static/js/main.5f12fad9.chunk.js.map",
+    "runtime-main.js": "/travel_weather_app/static/js/runtime-main.0501a9e3.js",
+    "runtime-main.js.map": "/travel_weather_app/static/js/runtime-main.0501a9e3.js.map",
+    "static/js/2.de69d1a4.chunk.js": "/travel_weather_app/static/js/2.de69d1a4.chunk.js",
+    "static/js/2.de69d1a4.chunk.js.map": "/travel_weather_app/static/js/2.de69d1a4.chunk.js.map",
+    "index.html": "/travel_weather_app/index.html",
+    "precache-manifest.c25f90d6596ff7fc41de9f0079b7cfae.js": "/travel_weather_app/precache-manifest.c25f90d6596ff7fc41de9f0079b7cfae.js",
+    "service-worker.js": "/travel_weather_app/service-worker.js",
+    "static/css/main.ff01474b.chunk.css.map": "/travel_weather_app/static/css/main.ff01474b.chunk.css.map",
+    "static/js/2.de69d1a4.chunk.js.LICENSE": "/travel_weather_app/static/js/2.de69d1a4.chunk.js.LICENSE",
+    "static/media/index.sass": "/travel_weather_app/static/media/2850815.d12f0de8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0501a9e3.js",
+    "static/js/2.de69d1a4.chunk.js",
+    "static/css/main.ff01474b.chunk.css",
+    "static/js/main.5f12fad9.chunk.js"
+  ]
+}
