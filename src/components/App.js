@@ -85,6 +85,14 @@ class App extends React.Component {
         const sunset = new Date(data1.sys.sunset * 1000).toLocaleTimeString().slice(0, 5);
         const sunrise = new Date(data1.sys.sunrise * 1000).toLocaleTimeString().slice(0, 5);
 
+        // filtering all 3 hour forecasts of today
+        const d = new Date();
+        const n = d.getDate();
+        var i = 0
+        while(Number(data2.list[i].dt_txt.slice(8, 10)) === n){
+          i += 1;
+        }
+
         const weatherInfo = {
           city: data1.name,
           country: data1.sys.country,
@@ -99,7 +107,7 @@ class App extends React.Component {
           clouds: data1.clouds.all,
           humidity: data1.main.humidity,
           wind: data1.wind.speed,
-          forecast: data2.list,
+          forecast: data2.list.slice(0, i),
           dailyForecast: data3.daily.slice(1, 5),
         };
         this.setState({
